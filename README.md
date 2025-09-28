@@ -12,7 +12,7 @@ Impulse 2: https://studio.edgeimpulse.com/studio/741999/impulse/1/learning/keras
 
 # 🤖 The Smart Physiotherapist – Human Activity Recognition (HAR) via UWB Radar
 
-**Course/Context:** Thesis or Specialization Lab Project (Politecnico di Milano)
+**Course/Context:** Hardware Architectures For Embedded and Edge AI Lab Project (Politecnico di Milano)
 **Authors:** Alberto Marrone and Etienne Marie Rault
 **Academic Year:** 2024-25
 
@@ -20,7 +20,7 @@ Impulse 2: https://studio.edgeimpulse.com/studio/741999/impulse/1/learning/keras
 
 ## 📌 Project Overview
 
-This repository hosts all the files (datasets, Python code, pre-processing functions, and trained models) related to the **"The Smart Physiotherapist"** project.
+This repository hosts all the files related to the **"The Smart Physiotherapist"** project.
 
 The project focuses on developing an innovative, non-invasive system for **Human Activity Recognition (HAR)** of specific motor activities, primarily aimed at **remote patient monitoring** and assistance in rehabilitation contexts. The system leverages **Ultra-Wideband (UWB) radar sensors** to acquire motion data, which is then processed through an advanced **TinyML (Machine Learning on Edge Devices)** pipeline. The core objective is to achieve high classification accuracy while adhering to the strict memory and processing time constraints of resource-limited Microcontroller Units (MCUs).
 
