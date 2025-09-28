@@ -67,8 +67,8 @@ This project combines state-of-the-art hardware with specialized software platfo
 | **ML/AI Platform** | **Edge Impulse** | Training, optimization, and profiling of models for TinyML deployment. |
 | **Languages & Libraries** | **Python** | Development of the data pre-processing pipeline. |
 | | **NumPy** | Raw data format and multi-dimensional array manipulation. |
-| **Target Deployment** | **STM32 Microcontrollers** (High-End) | Recommended platform for processing power. |
-| | **Arduino Nano 33 BLE Sense** | Considered for initial testing and Edge AI compatibility. |
+| **Target Deployment** | **Arduino Nano 33 BLE Sense** | Considered for initial testing and Edge AI compatibility. |
+
 
 ---
 
