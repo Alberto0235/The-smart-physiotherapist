@@ -1,15 +1,3 @@
-# The-smart-physiotherapist
-
-You can find here all the files created for the project "The smart Physiotherapist".
-
-You can also get access to the impulses thanks to these links:
-
-Impulse 1: https://studio.edgeimpulse.com/studio/740207/impulse/4/learning/keras/12 , is the accurate model with a high accuracy training (92.6%).
-
-Impulse 2: https://studio.edgeimpulse.com/studio/741999/impulse/1/learning/keras/4 , is the optimized model using the merged dataset.
-
-
-
 # 🤖 The Smart Physiotherapist – Human Activity Recognition (HAR) via UWB Radar
 
 **Course/Context:** Hardware Architectures For Embedded and Edge AI Lab Project (Politecnico di Milano)
@@ -76,10 +64,12 @@ This project combines state-of-the-art hardware with specialized software platfo
 
 The repository is organized to provide comprehensive access to all project components:
 
-* `\report\` – Contains the complete project report (PDF) with detailed analysis, results, and conclusions.
-* `\python_scripts\` – Contains the Python scripts used for pre-processing the raw `.npy` files and converting them into image inputs.
-* `\datasets\` – Contains the raw and pre-processed datasets used for training.
-* `\edge_impulse_models\` – May include exported artifacts from Edge Impulse (e.g., C++ libraries or TFLite files).
+* `\Infineon\` – Contains the raw and pre-processed dataset collected with the Infineon sensor, along with specific Python functions for its elaboration.
+* `\SR250mate\` – Contains the raw and pre-processed dataset collected with the SR250mate sensor, along with specific Python functions for its elaboration.
+* `Function_prepare_Final_compact_form.py` – General Python function used as a base for the initial data pre-processing stages.
+* `Function_prepare_Infineon.py` – Specific Python function for preprocessing the Infineon data.
+* `The_smart_physiotherapist.pdf` – The full project report detailing the methodology, comparative analysis, and results.
+* `merged_dataset.zip` – An extended, pre-processed dataset used for training, integrating additional files.
 
 ---
 
